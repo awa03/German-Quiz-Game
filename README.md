@@ -9,13 +9,26 @@ The purpose of this application is to train german skills, this project randomly
 ****
 # Installation
 >[!Note]
->Some of these have not been implemented yet, but will be by Feb 30th, 2024
+>Some Dependencies May need to be resolved by the user
 
 To install this project, follow these steps:
 1. Clone the repository to your local machine:
+   - ```
+     git clone https://github.com/awa03/German-Quiz-Game.git
+     ```
 2. Navigate to the project directory:
-3. Install the required dependencies:
-4. Run the setup script:
+   - ```sh
+     cd German-Quiz-Game
+     ```
+4. Install the required dependencies:
+   - ```sh
+     sudo apt-get install pip
+     ```
+5. Run the setup script:
+   - ```sh
+     cd Setup
+     ./Install.sh
+     ```
 
 For more detailed instructions, refer to the [Installation Guide](docs/installation.md).
 ****
