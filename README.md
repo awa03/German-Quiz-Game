@@ -9,7 +9,7 @@ The purpose of this application is to train german skills, this project randomly
 ****
 # Installation
 >[!Note]
->Some Dependencies May need to be resolved by the user
+>For Windows users, the process may differ. For best results use Linux or Mac.
 
 To install this project, follow these steps:
 1. Clone the repository to your local machine:
