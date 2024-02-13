@@ -30,7 +30,7 @@ To install this project, follow these steps:
      ./Install.sh
      ```
 
-For more detailed instructions, refer to the [Installation Guide](docs/installation.md).
+For more detailed instructions, refer to the [Installation Guide](Docs/installation.md).
 ****
 # Stretch Goals
 - Card Matching
