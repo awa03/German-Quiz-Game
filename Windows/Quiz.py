@@ -40,6 +40,7 @@ def Submit(sender, data):
             else:
                 pygui.add_text(f"Incorrect: Correct answer: {english_translation}", parent="Incorrect")
                 pygui.add_text(f"Your score: {high_score}", parent="Incorrect")
+                pygui.add_button(label="Override, I got this right", callback=Override, parent="Incorrect")
                 incorrect_window = "Incorrect"
  
         pygui.set_value("answer_input", "")  # Clear the input field
@@ -67,4 +68,11 @@ def Menu_Exit():
     pygui.delete_item(incorrect_window)
     incorrect_window = None
         
-
+def Override(sender, data):
+    global high_score
+    global incorrect_window
+    pygui.delete_item(incorrect_window)
+    high_score += 1
+    Exit()
+    Start()
+    
