@@ -1,6 +1,10 @@
+import sys
 import dearpygui.dearpygui as pygui
 from deep_translator import GoogleTranslator
 import Windows.QuizLogic.Generate_Word as Generate_Word
+
+sys.path.append('../Settings/')
+import Settings.Score_Saver as Score_Saver
 
 current_window = None
 incorrect_window = None
@@ -35,6 +39,7 @@ def Submit(sender, data):
         with pygui.window(label="Incorrect", width=600, height=200, on_close=Menu_Exit):
             if answer.lower() == english_translation.lower():
                 high_score += 1
+                Score_Saver.Save_Score(high_score)
                 Exit()
                 Start()
             else:
@@ -73,6 +78,7 @@ def Override(sender, data):
     global incorrect_window
     pygui.delete_item(incorrect_window)
     high_score += 1
+    Score_Saver.Save_Score(high_score)
     Exit()
     Start()
     
