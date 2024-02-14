@@ -42,7 +42,7 @@ For more detailed instructions, refer to the [Installation Guide](Docs/installat
   - Light and Dark Mode
 - Remake for Dotnet MAUI
   - Since there are many limitations of the GUI library I plan to migrate to dotnet Maui
-- Highscore Feature
+- Highscore Feature ✅ 
 - Game Settings
   - No Repeat Words
   - Multi word
