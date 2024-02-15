@@ -42,8 +42,9 @@ Then by modifying the active_set.json you can add words and definitions to study
 ****
 # Stretch Goals
 - Card Matching
+- Flash Cards ✅
 - Load Data Set
-  - Json
+  - Json ✅
   - TXT 
 - Clean Up UI
   - Color Schemes
