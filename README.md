@@ -32,10 +32,19 @@ To install this project, follow these steps:
 
 For more detailed instructions, refer to the [Installation Guide](Docs/installation.md).
 ****
+# Loading Files
+Currently there is no in app way to load files given by the user. For now please navigate to the Windows directory, and then the Study Set directory. This can be done via commands as follows:
+```sh
+cd Windows/Study_Set
+```
+Then by modifying the active_set.json you can add words and definitions to study from. More documentation on how to complete the json modification can be found in the documentation folder: [Modifying Json Sets](Docs/json_sets.md)
+
+****
 # Stretch Goals
 - Card Matching
+- Flash Cards ✅
 - Load Data Set
-  - Json
+  - Json ✅
   - TXT 
 - Clean Up UI
   - Color Schemes
