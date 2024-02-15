@@ -6,7 +6,7 @@ Currently there is no in app way to load files given by the user. For now please
 ```sh
 cd Windows/Study_Set
 ```
-Then by modifying the active_set.json you can add words and definitions to study from. More documentation on how to complete the json modification can be found in the documentation folder: [Modifying Json Sets](Docs/json_sets.md)
+Then by modifying the active_set.json you can add words and definitions to study from. 
 ****
 ### What You Will See
 Once you have navigated the active set file you should see a file that contains something like this. The "Word" keyword represents the german word, while the "Definition" signifys the english translation. 
