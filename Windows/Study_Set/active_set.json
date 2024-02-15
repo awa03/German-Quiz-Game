@@ -1,0 +1,99 @@
+
+[
+  {
+    "Word": "Ich",
+    "Definition": "Nomative - I"
+  },
+  {
+    "Word": "Du",
+    "Definition": "Nomative - You"
+  },
+  {
+    "Word": "Er",
+    "Definition": "Nomative - He"
+  },
+  {
+    "Word": "Sie",
+    "Definition": "Nomative - She"
+  },
+  {
+    "Word": "Es",
+    "Definition": "Nomative - It"
+  },
+  {
+    "Word": "Wir",
+    "Definition": "Nomative - We"
+  },
+  {
+    "Word": "Ihr",
+    "Definition": "Nomative - You (plural)"
+  },
+  {
+    "Word": "Sie",
+    "Definition": "Nomative - They"
+  },
+  {
+    "Word": "Mich",
+    "Definition": "Accusative - Me"
+  },
+  {
+    "Word": "Dich",
+    "Definition": "Accusative - You"
+  },
+  {
+    "Word": "Ihn",
+    "Definition": "Accusative - Him"
+  },
+  {
+    "Word": "Sie",
+    "Definition": "Accusative - Her"
+  },
+  {
+    "Word": "Es",
+    "Definition": "Accusative - It"
+  },
+  {
+    "Word": "Uns",
+    "Definition": "Accusative - Us"
+  },
+  {
+    "Word": "Euch",
+    "Definition": "Accusative - You (plural)"
+  },
+  {
+    "Word": "Sie",
+    "Definition": "Accusative - Them"
+  },
+  {
+    "Word": "Mir",
+    "Definition": "Dative - Me"
+  },
+  {
+    "Word": "Dir",
+    "Definition": "Dative - You"
+  },
+  {
+    "Word": "Ihm",
+    "Definition": "Dative - Him"
+  },
+  {
+    "Word": "Ihr",
+    "Definition": "Dative - Her"
+  },
+  {
+    "Word": "Ihm",
+    "Definition": "Dative - It"
+  },
+  {
+    "Word": "Uns",
+    "Definition": "Dative - Us"
+  },
+  {
+    "Word": "Euch",
+    "Definition": "Dative - You (plural)"
+  },
+  {
+    "Word": "Ihnen",
+    "Definition": "Dative - Them"
+  }
+]
