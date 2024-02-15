@@ -29,7 +29,12 @@ To install this project, follow these steps:
      cd Setup
      ./Install.sh
      ```
-
+If you would like to run the precompiled version simply navigate to the dist directory using the command.
+```sh
+      cd dist # Navigates To Directory
+     ./main   # Launches the Program
+```
+This will allow you to run the program without needing to run any commands! You can also do this by opening the directory from your file browser and launching the application.
 For more detailed instructions, refer to the [Installation Guide](Docs/installation.md).
 ****
 # Loading Files
