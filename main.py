@@ -11,6 +11,9 @@ fonts.Start()
 fonts.Set_Theme()
 primary.Start()
 
+# Style Editor
+# pygui.show_style_editor()
+
 # Editable User Settings
 user_settings_instance = settings.user_settings()
 settings.Apply_Settings(user_settings_instance)
