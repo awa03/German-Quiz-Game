@@ -42,5 +42,6 @@ def Modify_Settings(user_settings, theme, theme_color, theme_style, theme_color_
 
 # Theme Options - Default, Dark, Light, Classic, Grey, Dark 2, Light 2, Grey 2
 def Set_Theme(user_settings, theme):
+    pygui.set_global_font_scale(10)
     user_settings.theme = theme
     Apply_Settings(user_settings)
