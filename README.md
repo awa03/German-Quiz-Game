@@ -42,7 +42,7 @@ Currently there is no in app way to load files given by the user. For now please
 ```sh
 cd Windows/Study_Set
 ```
-Then by modifying the active_set.json you can add words and definitions to study from. More documentation on how to complete the json modification can be found in the documentation folder: [Modifying Json Sets](Docs/json_sets.md)
+Then by modifying the active_set.json you can add words and definitions to study from. More documentation on how to complete the json modification can be found in the documentation folder: [Modifying Json Sets](Docs/json_sets.md). Additionally the app now allows for adding flash cards in app. This should be done via the button from the primary page
 
 ****
 # Stretch Goals
@@ -51,7 +51,7 @@ Then by modifying the active_set.json you can add words and definitions to study
 - Load Data Set
   - Json ✅
   - TXT 
-- Clean Up UI
+- Clean Up UI ✅
   - Color Schemes
   - Light and Dark Mode
 - Remake for Dotnet MAUI
@@ -62,6 +62,6 @@ Then by modifying the active_set.json you can add words and definitions to study
   - Multi word
   - Sentences
   - In app settings
-- Override button
+- Override button ✅
   - If the user spelled the word incorrectly but feels their answer is correct
 
