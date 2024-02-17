@@ -1,21 +1,5 @@
 [
   {
-    "Word": "Ich",
-    "Definition": "Nomative - I"
-  },
-  {
-    "Word": "Du",
-    "Definition": "Nomative - You"
-  },
-  {
-    "Word": "Er",
-    "Definition": "Nomative - He"
-  },
-  {
-    "Word": "Sie",
-    "Definition": "Nomative - She"
-  },
-  {
     "Word": "Es",
     "Definition": "Nomative - It"
   },
@@ -56,16 +40,8 @@
     "Definition": "Accusative - Us"
   },
   {
-    "Word": "Euch",
-    "Definition": "Accusative - You (plural)"
-  },
-  {
     "Word": "Sie",
     "Definition": "Accusative - Them"
-  },
-  {
-    "Word": "Mir",
-    "Definition": "Dative - Me"
   },
   {
     "Word": "Dir",
@@ -94,5 +70,17 @@
   {
     "Word": "Ihnen",
     "Definition": "Dative - Them"
-  }, 
+  },
+  {
+    "Word": "Word",
+    "Definition": "Definition"
+  },
+  {
+    "Word": "Word",
+    "Definition": "Definition"
+  },
+  {
+    "Word": "Word",
+    "Definition": "Definition"
+  }
 ]
