@@ -20,14 +20,14 @@ def Start():
                       pos=(775, 40)
                       ):
         pygui.add_input_text(label="Word",
-                             tag="Word",
+                             tag="Word_To_Add",
                              default_value="Word",
                              width=490,
                              height=50,
                              pos=(5, 5)
                              )
         pygui.add_input_text(label="Definition",
-                             tag="Definition",
+                             tag="Definition_To_Add",
                              default_value="Definition",
                              width=490,
                              height=50,
@@ -47,8 +47,8 @@ def Start():
                          )
 
 def Add_Word():
-    Word = pygui.get_value("Word")
-    Definition = pygui.get_value("Definition")
+    Word = pygui.get_value("Word_To_Add")
+    Definition = pygui.get_value("Definition_To_Add")
     Add_New_Words.Add_Word(Word, Definition)
     with pygui.window(
         label="Added",

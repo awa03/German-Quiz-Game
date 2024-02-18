@@ -33,30 +33,37 @@ def Start():
 
         pygui.add_text(word,
                        parent="Study Set",
-                       tag="Word"
+                       tag="Word_In_Set",
+        )
+        pygui.add_button(label="X",
+                         pos=(460, 5),
+                         callback=Exit,
+                         width=35,
+                         height=35,
+                         parent="Study Set"
         )
           
 def See_Definition():
     global is_def_shown
     if not is_def_shown:
         is_def_shown = True
-        word = pygui.get_value("Word")
+        word = pygui.get_value("Word_In_Set")
         definition = set_word.Get_Definition(word)
         pygui.add_text(definition,
                        parent="Study Set",
-                       tag="Definition"
+                       tag="Definition_In_Set"
         )
 
 def Next_Word():
     global is_def_shown
     is_def_shown = False
-    pygui.delete_item("Word")
+    pygui.delete_item("Word_In_Set")
     word = set_word.Get_Rand_Word()
     pygui.add_text(word,
                    parent="Study Set",
-                   tag="Word"
+                   tag="Word_In_Set"
     )
-    pygui.delete_item("Definition")
+    pygui.delete_item("Definition_In_Set")
 
 
 def Exit():

@@ -1,9 +1,5 @@
 [
   {
-    "Word": "Es",
-    "Definition": "Nomative - It"
-  },
-  {
     "Word": "Wir",
     "Definition": "Nomative - We"
   },
@@ -12,16 +8,8 @@
     "Definition": "Nomative - You (plural)"
   },
   {
-    "Word": "Sie",
-    "Definition": "Nomative - They"
-  },
-  {
     "Word": "Mich",
     "Definition": "Accusative - Me"
-  },
-  {
-    "Word": "Dich",
-    "Definition": "Accusative - You"
   },
   {
     "Word": "Ihn",
@@ -30,10 +18,6 @@
   {
     "Word": "Sie",
     "Definition": "Accusative - Her"
-  },
-  {
-    "Word": "Es",
-    "Definition": "Accusative - It"
   },
   {
     "Word": "Uns",
@@ -46,10 +30,6 @@
   {
     "Word": "Dir",
     "Definition": "Dative - You"
-  },
-  {
-    "Word": "Ihm",
-    "Definition": "Dative - Him"
   },
   {
     "Word": "Ihr",
@@ -82,5 +62,9 @@
   {
     "Word": "Word",
     "Definition": "Definition"
+  },
+  {
+    "Word": "Orange Thing That Grows in the ground and is yummy",
+    "Definition": "Carrot"
   }
 ]
