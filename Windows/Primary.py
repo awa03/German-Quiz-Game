@@ -8,6 +8,7 @@ import Windows.Study_Set.Set_Quiz as study_set
 import Windows.Study_Set.Add_Word_UI as Add_Word_U
 import Windows.Study_Set.Delete_Word_UI as Delete_Word_U
 import Windows.Study_Set.Get_Set_Word as Get_Set_Word
+import Windows.Study_Set.Set_Manager as manager
 sys.path.append('../Settings/')
 import Settings.Score_Saver as Score_Saver
 # Primary Window
@@ -77,6 +78,12 @@ def center_widgets():
                      width=widget_width,
                      height=70
     )
+    pygui.add_button(label="Manage Sets",
+                     callback=Set_Manager,
+                     parent="Primary Window",
+                     width=widget_width,
+                     height=70
+    )
     pygui.add_text(f"High Score: {high_score}",
                    parent="Primary Window"
     )
@@ -105,6 +112,9 @@ def Delete_Word():
 
 def view_all_words(sender, data):
     Get_Set_Word.view_all_words(sender, data)
+
+def Set_Manager():
+    manager.Show_Sets()
 
 def Menu_Exit():
     pygui.destroy_context() 
