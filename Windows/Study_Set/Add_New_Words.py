@@ -2,30 +2,46 @@
 # FILE: active_set.json
 import json
 import sys
+import os
+import Windows.Study_Set.Set_Manager as manager
+
+is_open = False
+instance = manager.SetManager()
+current_directory = os.getcwd()
+file_path = f'Windows/Study_Set/{instance.active_set}'
+
 def Add_Word(Word, Definition):
+    Update_Set()
+    global current_directory
+    print(current_directory + "\n\n")
+    global file_path
     try:
-        with open('Windows/Study_Set/active_set.json', 'r') as f:
+        with open(file_path, 'r') as f:
             data = json.load(f)
     except FileNotFoundError:
         data = []
         
     data.append({"Word": Word, "Definition": Definition})
     
-    with open('Windows/Study_Set/active_set.json', 'w') as f:
+    with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
 
+<<<<<<< Updated upstream
+=======
 
 def Delete_Word(Word):
+    Update_Set()
+    global file_path
     flag = False  
     
     try:
-        with open('Windows/Study_Set/active_set.json', 'r') as f:
+        with open(file_path, 'r') as f:
             data = json.load(f)
     except FileNotFoundError:
-        print("Error: File 'active_set.json' not found.")
+        print(f"Error: File '{file_path}' not found.")
         return False
     except json.decoder.JSONDecodeError:
-        print("Error: 'active_set.json' contains invalid JSON data.")
+        print(f"Error: '{file_path}' contains invalid JSON data.")
         return False
     
     # Create a copy of the data list to iterate over
@@ -42,4 +58,15 @@ def Delete_Word(Word):
     
     return flag
 
+def Update_Set():
+    # Set Curr Dir to home dir
+    global file_path
+    global instance
+    instance = manager.SetManager()
+    file_path = os.path.join('Windows/Study_Set', instance.active_set)
+
+
     
+
+
+>>>>>>> Stashed changes

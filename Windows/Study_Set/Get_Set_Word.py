@@ -1,31 +1,16 @@
 import json
 import random
 import sys
-import os
-import dearpygui.dearpygui as pygui
-import Windows.Study_Set.Set_Manager as manager 
-
-instance = manager.SetManager()
-current_directory = os.getcwd()
-file_path = f'Window/Study_Set/{instance.active_set}'
-is_open_view_flash = False
-
+# Get a set of words from a file
 def Get_Set():
-    Update_Set()
-    global file_path
-    print(os.getcwd())
-
-    print (file_path + "\n\n")
-
-    # change dir to the study set directory     
-
-    with open(file_path, 'r') as file:
+    
+    with open('Windows/Study_Set/active_set.json', 'r') as file:
         data = json.load(file)
     return data
 
 # Get a random word from the set
 def Get_Rand_Word():
-    Update_Set()
+    # only return german 
     data = Get_Set()
     word = random.choice(data)
     return word['Word']
@@ -35,8 +20,11 @@ def Get_Definition(word):
     for item in data:
         if item['Word'] == word:
             return item['Definition']
+<<<<<<< Updated upstream
+=======
 
 def view_all_words(sender, data):
+    
     Update_Set()
     global file_path    
     global is_open_view_flash
@@ -77,6 +65,7 @@ def view_all_words(sender, data):
                          height=50
                          )
 
+
 def Update_Set():
     # Set Curr Dir to home dir
     global file_path
@@ -88,3 +77,4 @@ def close_word_viewer(sender, data):
     global is_open_view_flash
     is_open_view_flash = False
     pygui.delete_item("Word Viewer")
+>>>>>>> Stashed changes

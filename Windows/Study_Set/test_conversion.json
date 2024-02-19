@@ -1,166 +1,170 @@
 [
-    {
-        "Word": "anbieten",
-        "Definition": "etwas zur Verfügung stellen oder anbieten, wie zum Beispiel Waren oder Dienstleistungen"
-    },
-    {
-        "Word": "arbeiten",
-        "Definition": "sich in einem Beruf oder einer Tätigkeit engagieren, um Geld zu verdienen"
-    },
-    {
-        "Word": "besitzen",
-        "Definition": "etwas als Eigentum haben oder kontrollieren"
-    },
-    {
-        "Word": "erzählen",
-        "Definition": "eine Geschichte oder Ereignisse in mündlicher oder schriftlicher Form wiedergeben"
-    },
-    {
-        "Word": "fahren",
-        "Definition": "ein Fahrzeug steuern oder benutzen, um sich von einem Ort zum anderen zu bewegen"
-    },
-    {
-        "Word": "forschen",
-        "Definition": "systematisch nach neuen Erkenntnissen suchen, insbesondere in der Wissenschaft"
-    },
-    {
-        "Word": "führen",
-        "Definition": "die Verantwortung für eine Gruppe übernehmen und sie in eine bestimmte Richtung lenken"
-    },
-    {
-        "Word": "handeln",
-        "Definition": "Waren oder Dienstleistungen kaufen oder verkaufen, oft im Rahmen eines Geschäfts"
-    },
-    {
-        "Word": "kaufen",
-        "Definition": "etwas gegen Bezahlung erwerben"
-    },
-    {
-        "Word": "lehren",
-        "Definition": "Wissen oder Fähigkeiten an andere weitergeben, um ihnen etwas beizubringen"
-    },
-    {
-        "Word": "leiten",
-        "Definition": "die Verantwortung für eine Organisation oder Gruppe haben und sie führen"
-    },
-    {
-        "Word": "lesen",
-        "Definition": "geschriebene Wörter oder Texte verstehen, indem man sie visuell interpretiert"
-    },
-    {
-        "Word": "malen",
-        "Definition": "Farben verwenden, um ein Bild oder eine Darstellung zu erstellen"
-    },
-    {
-        "Word": "nutzen",
-        "Definition": "etwas verwenden, um einen bestimmten Zweck zu erfüllen"
-    },
-    {
-        "Word": "spielen",
-        "Definition": "sich mit einem Spiel oder einer Aktivität beschäftigen, die Freude oder Unterhaltung bietet"
-    },
-    {
-        "Word": "sprechen",
-        "Definition": "mündlich kommunizieren, indem man Wörter und Sätze artikuliert"
-    },
-    {
-        "Word": "teilnehmen",
-        "Definition": "an einer Aktivität, einem Ereignis oder einer Diskussion aktiv beteiligt sein"
-    },
-    {
-        "Word": "übersetzen",
-        "Definition": "geschriebenen oder gesprochenen Text von einer Sprache in eine andere übertragen"
-    },
-    {
-        "Word": "verkaufen",
-        "Definition": "etwas an jemanden abgeben, indem man es gegen Geld austauscht"
-    },
-    {
-        "Word": "zuhören",
-        "Definition": "aktiv auf auditive Informationen achten und sie verstehen"
-    },
-    {
-        "Word": "die Heimat",
-        "Definition": "der Ort, an dem man geboren ist oder sich zu Hause fühlt"
-    },
-    {
-        "Word": "hinter",
-        "Definition": "auf der Rückseite oder im hinteren Bereich von etwas"
-    },
-    {
-        "Word": "der Stein",
-        "Definition": "-e,ein fester, natürlicher Stoff, der in der Erde vorkommt"
-    },
-    {
-        "Word": "das Holz",
-        "Definition": "der feste, harte Stoff, der aus dem Stamm von Bäumen gewonnen wird"
-    },
-    {
-        "Word": "der Zaun",
-        "Definition": "-e,eine strukturierte Barriere aus Holz oder Metall, die dazu dient, Bereiche zu trennen oder zu schützen"
-    },
-    {
-        "Word": "üblich",
-        "Definition": "etwas, das allgemein akzeptiert oder praktiziert wird"
-    },
-    {
-        "Word": "der Ziegel",
-        "Definition": "ein rechteckiger Block aus gebranntem Ton, der zum Bau von Gebäuden verwendet wird"
-    },
-    {
-        "Word": "das Einfamilienhaus",
-        "Definition": "ein Haus, das für eine einzige Familie als Wohnsitz dient"
-    },
-    {
-        "Word": "umgeben",
-        "Definition": "von etwas umschlossen oder umgeben sein"
-    },
-    {
-        "Word": "die Miete",
-        "Definition": "-n,die regelmäßige Zahlung, die für die Nutzung von Wohnraum geleistet wird"
-    },
-    {
-        "Word": "anders",
-        "Definition": "unterschiedlich oder nicht gleich wie etwas anderes"
-    },
-    {
-        "Word": "während",
-        "Definition": "in der Zeit, die zwischen zwei bestimmten Ereignissen liegt"
-    },
-    {
-        "Word": "die Hälfte",
-        "Definition": "-n,eine von zwei gleichen oder ähnlichen Teilen, in die etwas geteilt werden kann"
-    },
-    {
-        "Word": "doppelt",
-        "Definition": "etwas, das die doppelte Menge oder Größe von etwas anderem hat"
-    },
-    {
-        "Word": "begegnen",
-        "Definition": "jemanden treffen oder auf jemanden stoßen, oft zufällig"
-    },
-    {
-        "Word": "fehlen",
-        "Definition": "nicht vorhanden oder nicht anwesend sein, wenn es erwartet wird"
-    },
-    {
-        "Word": "gefallen",
-        "Definition": "jemandem gefallen oder angenehm sein"
-    },
-    {
-        "Word": "gehören",
-        "Definition": "im Besitz oder unter der Kontrolle von jemandem sein"
-    },
-    {
-        "Word": "helfen",
-        "Definition": "jemandem Unterstützung oder Hilfe leisten"
-    },
-    {
-        "Word": "schaden",
-        "Definition": "jemandem oder etwas Schaden zufügen oder negativ beeinflussen"
-    },
-    {
-        "Word": "schmecken",
-        "Definition": "den Geschmack von etwas wahrnehmen und bewerten"
-    }
+  {
+    "Word": "anbieten",
+    "Definition": "etwas zur Verf\u00fcgung stellen oder anbieten, wie zum Beispiel Waren oder Dienstleistungen"
+  },
+  {
+    "Word": "arbeiten",
+    "Definition": "sich in einem Beruf oder einer T\u00e4tigkeit engagieren, um Geld zu verdienen"
+  },
+  {
+    "Word": "besitzen",
+    "Definition": "etwas als Eigentum haben oder kontrollieren"
+  },
+  {
+    "Word": "erz\u00e4hlen",
+    "Definition": "eine Geschichte oder Ereignisse in m\u00fcndlicher oder schriftlicher Form wiedergeben"
+  },
+  {
+    "Word": "fahren",
+    "Definition": "ein Fahrzeug steuern oder benutzen, um sich von einem Ort zum anderen zu bewegen"
+  },
+  {
+    "Word": "forschen",
+    "Definition": "systematisch nach neuen Erkenntnissen suchen, insbesondere in der Wissenschaft"
+  },
+  {
+    "Word": "f\u00fchren",
+    "Definition": "die Verantwortung f\u00fcr eine Gruppe \u00fcbernehmen und sie in eine bestimmte Richtung lenken"
+  },
+  {
+    "Word": "handeln",
+    "Definition": "Waren oder Dienstleistungen kaufen oder verkaufen, oft im Rahmen eines Gesch\u00e4fts"
+  },
+  {
+    "Word": "kaufen",
+    "Definition": "etwas gegen Bezahlung erwerben"
+  },
+  {
+    "Word": "lehren",
+    "Definition": "Wissen oder F\u00e4higkeiten an andere weitergeben, um ihnen etwas beizubringen"
+  },
+  {
+    "Word": "leiten",
+    "Definition": "die Verantwortung f\u00fcr eine Organisation oder Gruppe haben und sie f\u00fchren"
+  },
+  {
+    "Word": "lesen",
+    "Definition": "geschriebene W\u00f6rter oder Texte verstehen, indem man sie visuell interpretiert"
+  },
+  {
+    "Word": "malen",
+    "Definition": "Farben verwenden, um ein Bild oder eine Darstellung zu erstellen"
+  },
+  {
+    "Word": "nutzen",
+    "Definition": "etwas verwenden, um einen bestimmten Zweck zu erf\u00fcllen"
+  },
+  {
+    "Word": "spielen",
+    "Definition": "sich mit einem Spiel oder einer Aktivit\u00e4t besch\u00e4ftigen, die Freude oder Unterhaltung bietet"
+  },
+  {
+    "Word": "sprechen",
+    "Definition": "m\u00fcndlich kommunizieren, indem man W\u00f6rter und S\u00e4tze artikuliert"
+  },
+  {
+    "Word": "teilnehmen",
+    "Definition": "an einer Aktivit\u00e4t, einem Ereignis oder einer Diskussion aktiv beteiligt sein"
+  },
+  {
+    "Word": "\u00fcbersetzen",
+    "Definition": "geschriebenen oder gesprochenen Text von einer Sprache in eine andere \u00fcbertragen"
+  },
+  {
+    "Word": "verkaufen",
+    "Definition": "etwas an jemanden abgeben, indem man es gegen Geld austauscht"
+  },
+  {
+    "Word": "zuh\u00f6ren",
+    "Definition": "aktiv auf auditive Informationen achten und sie verstehen"
+  },
+  {
+    "Word": "die Heimat",
+    "Definition": "der Ort, an dem man geboren ist oder sich zu Hause f\u00fchlt"
+  },
+  {
+    "Word": "hinter",
+    "Definition": "auf der R\u00fcckseite oder im hinteren Bereich von etwas"
+  },
+  {
+    "Word": "der Stein",
+    "Definition": "-e,ein fester, nat\u00fcrlicher Stoff, der in der Erde vorkommt"
+  },
+  {
+    "Word": "das Holz",
+    "Definition": "der feste, harte Stoff, der aus dem Stamm von B\u00e4umen gewonnen wird"
+  },
+  {
+    "Word": "der Zaun",
+    "Definition": "-e,eine strukturierte Barriere aus Holz oder Metall, die dazu dient, Bereiche zu trennen oder zu sch\u00fctzen"
+  },
+  {
+    "Word": "\u00fcblich",
+    "Definition": "etwas, das allgemein akzeptiert oder praktiziert wird"
+  },
+  {
+    "Word": "der Ziegel",
+    "Definition": "ein rechteckiger Block aus gebranntem Ton, der zum Bau von Geb\u00e4uden verwendet wird"
+  },
+  {
+    "Word": "das Einfamilienhaus",
+    "Definition": "ein Haus, das f\u00fcr eine einzige Familie als Wohnsitz dient"
+  },
+  {
+    "Word": "umgeben",
+    "Definition": "von etwas umschlossen oder umgeben sein"
+  },
+  {
+    "Word": "die Miete",
+    "Definition": "-n,die regelm\u00e4\u00dfige Zahlung, die f\u00fcr die Nutzung von Wohnraum geleistet wird"
+  },
+  {
+    "Word": "anders",
+    "Definition": "unterschiedlich oder nicht gleich wie etwas anderes"
+  },
+  {
+    "Word": "w\u00e4hrend",
+    "Definition": "in der Zeit, die zwischen zwei bestimmten Ereignissen liegt"
+  },
+  {
+    "Word": "die H\u00e4lfte",
+    "Definition": "-n,eine von zwei gleichen oder \u00e4hnlichen Teilen, in die etwas geteilt werden kann"
+  },
+  {
+    "Word": "doppelt",
+    "Definition": "etwas, das die doppelte Menge oder Gr\u00f6\u00dfe von etwas anderem hat"
+  },
+  {
+    "Word": "begegnen",
+    "Definition": "jemanden treffen oder auf jemanden sto\u00dfen, oft zuf\u00e4llig"
+  },
+  {
+    "Word": "fehlen",
+    "Definition": "nicht vorhanden oder nicht anwesend sein, wenn es erwartet wird"
+  },
+  {
+    "Word": "gefallen",
+    "Definition": "jemandem gefallen oder angenehm sein"
+  },
+  {
+    "Word": "geh\u00f6ren",
+    "Definition": "im Besitz oder unter der Kontrolle von jemandem sein"
+  },
+  {
+    "Word": "helfen",
+    "Definition": "jemandem Unterst\u00fctzung oder Hilfe leisten"
+  },
+  {
+    "Word": "schaden",
+    "Definition": "jemandem oder etwas Schaden zuf\u00fcgen oder negativ beeinflussen"
+  },
+  {
+    "Word": "schmecken",
+    "Definition": "den Geschmack von etwas wahrnehmen und bewerten"
+  },
+  {
+    "Word": "Word",
+    "Definition": "Definition"
+  }
 ]
