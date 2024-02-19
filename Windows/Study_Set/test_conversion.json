@@ -166,5 +166,9 @@
   {
     "Word": "Word",
     "Definition": "Definition"
+  },
+  {
+    "Word": null,
+    "Definition": null
   }
 ]

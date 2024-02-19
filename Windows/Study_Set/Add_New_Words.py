@@ -8,7 +8,7 @@ import Windows.Study_Set.Set_Manager as manager
 is_open = False
 instance = manager.SetManager()
 current_directory = os.getcwd()
-file_path = f'Windows/Study_Set/{instance.active_set}'
+file_path = os.path.join('Windows/Study_Set', instance.active_set)
 
 def Add_Word(Word, Definition):
     Update_Set()
@@ -19,8 +19,9 @@ def Add_Word(Word, Definition):
         with open(file_path, 'r') as f:
             data = json.load(f)
     except FileNotFoundError:
+        print("File Not Found Error")
         data = []
-        
+
     data.append({"Word": Word, "Definition": Definition})
     
     with open(file_path, 'w') as f:

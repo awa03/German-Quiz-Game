@@ -55,7 +55,7 @@ def See_Definition():
     global is_def_shown
     if not is_def_shown:
         is_def_shown = True
-        word = pygui.get_value("Word")
+        word = pygui.get_value("Word_In_Set")
         definition = set_word.Get_Definition(word)
         pygui.add_text(definition,
                        parent="Study Set",
@@ -63,13 +63,12 @@ def See_Definition():
         )
 
 def Next_Word():
-    global roboto
     global is_def_shown
     is_def_shown = False
-    pygui.delete_item("Word")
+    pygui.delete_item("Word_In_Set")
     word = set_word.Get_Rand_Word()
-    pygui.add_text(word, parent="Study Set", tag="Word")
-    pygui.delete_item("Definition")
+    pygui.add_text(word, parent="Study Set", tag="Word_In_Set")
+    pygui.delete_item("Definition_In_Set")
 
 def Exit():
     global current_window

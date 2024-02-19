@@ -52,8 +52,8 @@ def Start():
                          )
 
 def Add_Word():
-    Word = pygui.get_value("Word")
-    Definition = pygui.get_value("Definition")
+    Word = pygui.get_value("Word_To_Add")
+    Definition = pygui.get_value("Definition_To_Add")
     Add_New_Words.Add_Word(Word, Definition)
     instance = manager.SetManager()
     with pygui.window(
