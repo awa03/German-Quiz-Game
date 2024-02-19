@@ -26,8 +26,6 @@ def Add_Word(Word, Definition):
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
 
-<<<<<<< Updated upstream
-=======
 
 def Delete_Word(Word):
     Update_Set()
@@ -69,4 +67,3 @@ def Update_Set():
     
 
 
->>>>>>> Stashed changes

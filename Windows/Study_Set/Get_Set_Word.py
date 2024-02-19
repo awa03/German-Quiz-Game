@@ -1,10 +1,18 @@
 import json
 import random
 import sys
+import os
+import Windows.Study_Set.Set_Manager as manager
+import dearpygui.dearpygui as pygui
 # Get a set of words from a file
+instance = manager.SetManager()
+file_path = os.path.join('Windows/Study_Set', instance.active_set)
+is_open_view_flash = False
+
 def Get_Set():
-    
-    with open('Windows/Study_Set/active_set.json', 'r') as file:
+    Update_Set()
+    global file_path
+    with open(file_path, 'r') as file:
         data = json.load(file)
     return data
 
@@ -20,11 +28,8 @@ def Get_Definition(word):
     for item in data:
         if item['Word'] == word:
             return item['Definition']
-<<<<<<< Updated upstream
-=======
 
 def view_all_words(sender, data):
-    
     Update_Set()
     global file_path    
     global is_open_view_flash
@@ -77,4 +82,3 @@ def close_word_viewer(sender, data):
     global is_open_view_flash
     is_open_view_flash = False
     pygui.delete_item("Word Viewer")
->>>>>>> Stashed changes

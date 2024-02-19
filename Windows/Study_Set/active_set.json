@@ -1,99 +1,25 @@
 [
   {
-<<<<<<< Updated upstream
-    "Word": "Ich",
-    "Definition": "Nomative - I"
-  },
-  {
-    "Word": "Du",
-    "Definition": "Nomative - You"
-  },
-  {
-    "Word": "Er",
-    "Definition": "Nomative - He"
-  },
-  {
-    "Word": "Sie",
-    "Definition": "Nomative - She"
-  },
-  {
-    "Word": "Es",
-    "Definition": "Nomative - It"
-  },
-  {
-    "Word": "Wir",
-    "Definition": "Nomative - We"
-=======
     "Word": "anbieten",
     "Definition": "etwas zur Verf\u00fcgung stellen oder anbieten, wie zum Beispiel Waren oder Dienstleistungen"
->>>>>>> Stashed changes
   },
   {
     "Word": "arbeiten",
     "Definition": "sich in einem Beruf oder einer T\u00e4tigkeit engagieren, um Geld zu verdienen"
   },
   {
-<<<<<<< Updated upstream
-    "Word": "Sie",
-    "Definition": "Nomative - They"
-  },
-  {
-    "Word": "Mich",
-    "Definition": "Accusative - Me"
-  },
-  {
-    "Word": "Dich",
-    "Definition": "Accusative - You"
-  },
-  {
-    "Word": "Ihn",
-    "Definition": "Accusative - Him"
-=======
     "Word": "besitzen",
     "Definition": "etwas als Eigentum haben oder kontrollieren"
   },
   {
     "Word": "erz\u00e4hlen",
     "Definition": "eine Geschichte oder Ereignisse in m\u00fcndlicher oder schriftlicher Form wiedergeben"
->>>>>>> Stashed changes
   },
   {
     "Word": "fahren",
     "Definition": "ein Fahrzeug steuern oder benutzen, um sich von einem Ort zum anderen zu bewegen"
   },
   {
-<<<<<<< Updated upstream
-    "Word": "Es",
-    "Definition": "Accusative - It"
-  },
-  {
-    "Word": "Uns",
-    "Definition": "Accusative - Us"
-  },
-  {
-    "Word": "Euch",
-    "Definition": "Accusative - You (plural)"
-  },
-  {
-    "Word": "Sie",
-    "Definition": "Accusative - Them"
-  },
-  {
-    "Word": "Mir",
-    "Definition": "Dative - Me"
-  },
-  {
-    "Word": "Dir",
-    "Definition": "Dative - You"
-  },
-  {
-    "Word": "Ihm",
-    "Definition": "Dative - Him"
-  },
-  {
-    "Word": "Ihr",
-    "Definition": "Dative - Her"
-=======
     "Word": "forschen",
     "Definition": "systematisch nach neuen Erkenntnissen suchen, insbesondere in der Wissenschaft"
   },
@@ -108,7 +34,6 @@
   {
     "Word": "kaufen",
     "Definition": "etwas gegen Bezahlung erwerben"
->>>>>>> Stashed changes
   },
   {
     "Word": "lehren",
@@ -123,12 +48,6 @@
     "Definition": "geschriebene W\u00f6rter oder Texte verstehen, indem man sie visuell interpretiert"
   },
   {
-<<<<<<< Updated upstream
-    "Word": "Ihnen",
-    "Definition": "Dative - Them"
-  }, 
-]
-=======
     "Word": "malen",
     "Definition": "Farben verwenden, um ein Bild oder eine Darstellung zu erstellen"
   },
@@ -245,4 +164,3 @@
     "Definition": "den Geschmack von etwas wahrnehmen und bewerten"
   }
 ]
->>>>>>> Stashed changes
