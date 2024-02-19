@@ -37,7 +37,11 @@ If you would like to run the precompiled version simply navigate to the dist dir
 This will allow you to run the program without needing to run any commands! You can also do this by opening the directory from your file browser and launching the application.
 For more detailed instructions, refer to the [Installation Guide](Docs/installation.md).
 ****
-# Loading Files
+# Convert Sets From Quizlet
+Please Refer to the [Documentation](Docs/quizlet_conversion.md) for detailed instructions.
+****
+
+# Loading Files Manually
 Currently there is no in app way to load files given by the user. For now please navigate to the Windows directory, and then the Study Set directory. This can be done via commands as follows:
 ```sh
 cd Windows/Study_Set
