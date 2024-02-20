@@ -42,7 +42,7 @@ Please Refer to the [Documentation](Docs/quizlet_conversion.md) for detailed ins
 ****
 
 # Loading Files Manually
-Currently there is no in app way to load files given by the user. For now please navigate to the Windows directory, and then the Study Set directory. This can be done via commands as follows:
+Please navigate to the Windows directory, and then the Study Set directory. This can be done via commands as follows:
 ```sh
 cd Windows/Study_Set
 ```
