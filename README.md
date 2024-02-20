@@ -49,6 +49,32 @@ cd Windows/Study_Set
 Then by modifying the active_set.json you can add words and definitions to study from. More documentation on how to complete the json modification can be found in the documentation folder: [Modifying Json Sets](Docs/json_sets.md). Additionally the app now allows for adding flash cards in app. This should be done via the button from the primary page
 
 ****
+# Code Of Conduct
+Welcome to the German Quiz Game! We're excited to have you here. To ensure a positive and enjoyable experience for all players, we ask that you adhere to the following code of conduct:
+
+   1) Respect Each Other: Treat fellow players, moderators, and administrators with respect and courtesy. Harassment, discrimination, or bullying of any kind will not be tolerated.
+
+   2) Maintain a Friendly Environment: Help create a friendly and welcoming atmosphere for everyone. Avoid offensive language, hate speech, or any form of disrespectful behavior.
+
+   3) Stay on Topic: Keep discussions and interactions related to the German quiz game. Off-topic conversations should be taken to appropriate channels.
+
+   4)  No Cheating or Exploitation: Play the game fairly and refrain from cheating or exploiting loopholes in the game mechanics. This includes using external tools or resources to gain an unfair advantage.
+
+   5) Follow Instructions: Follow the instructions provided by moderators and administrators. Ignoring warnings or instructions may result in disciplinary action.
+
+   6) Respect Privacy: Respect the privacy of others and refrain from sharing personal information without consent. This includes both in-game interactions and any external communication platforms.
+
+   7) Report Violations: If you encounter any violations of this code of conduct, please report them to a moderator or administrator immediately. Provide as much detail as possible to assist in resolving the issue promptly.
+
+   9) Have Fun: Most importantly, have fun and enjoy playing the German quiz game! Remember that we're all here to learn and have a good time together.
+
+By participating in the German quiz game, you agree to abide by this code of conduct. Violations may result in warnings, temporary suspensions, or permanent bans from the game. For a more detailed code of conduct please review the [Code Of Conduct](CODE_OF_CONDUCT.md) in the documentation. 
+
+Thank you for helping us maintain a positive and inclusive community environment!
+
+
+
+****
 # Stretch Goals
 - Card Matching
 - Flash Cards ✅
