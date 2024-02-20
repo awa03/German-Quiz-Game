@@ -68,4 +68,7 @@ Then by modifying the active_set.json you can add words and definitions to study
   - In app settings
 - Override button ✅
   - If the user spelled the word incorrectly but feels their answer is correct
-
+****
+#### Project Inspiration
+![Insp 1](Docs/Assets/Project_inspo2.png)
+![Insp 2](Docs/Assets/Product_Inspo.drawio.png)
